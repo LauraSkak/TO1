@@ -845,3 +845,4 @@ $ cd ..
 [^3]: I have no idea why PowerShell doesn’t implement redirection for standard input, it seems like a massive oversight to me, but it is what it is.
 
 [^4]: The `diff` command can take one input file from its `stdin`, so we could sort *one* of the files with `sort qux | diff - qax` where the `-` tells `diff` that it should read that file from `stdin`. The problem we have here is that we need to sort both of the files.
+
